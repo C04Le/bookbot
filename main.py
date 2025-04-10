@@ -9,7 +9,7 @@ def main():
         "=" * 12 + " BOOKBOT " + "=" * 12 + 
         "\nAnalyzing book found at books/frankenstein.txt..." +
         "\n" + "-" * 11 + " Word Count " + "-" *10 +
-        "\n" f"{word_count} words found in the document" +
+        "\n" f"Found {word_count} total words" +
         "\n" + "-" * 8 + " Character Count " + "-" * 8)
     create_character_print(sorted_character_list)
     print("=" * 14 + "END" + "=" * 14)
