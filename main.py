@@ -13,7 +13,7 @@ def main():
     sorted_character_list = character_dictionary_list(text)
     print(
         "=" * 12 + " BOOKBOT " + "=" * 12 + 
-        "\nAnalyzing book found at books/frankenstein.txt..." +
+        f"\nAnalyzing book found at {path}" +
         "\n" + "-" * 11 + " Word Count " + "-" *10 +
         "\n" f"Found {word_count} total words" +
         "\n" + "-" * 8 + " Character Count " + "-" * 8)
